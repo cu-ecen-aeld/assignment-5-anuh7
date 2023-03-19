@@ -1,0 +1,5 @@
+config BR2_PACKAGE_CDD
+	bool "cdd"
+	help
+	  Includes the .ko compiled for aesd_char driver in the kernel.
+	  Used to understand buildroot external trees and package builds
